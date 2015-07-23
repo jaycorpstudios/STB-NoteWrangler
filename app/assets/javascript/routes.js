@@ -19,8 +19,7 @@ angular.module('NoteWrangler').config(function($routeProvider){
 		templateUrl: 'assets/templates/notes/edit.html',
 		controller: 'NotesEditCtrl'
 	})
-	.when('/users', {
-		templateUrl: 'assets/templates/users/index.html',
-		controller: 'UsersIndexCtrl.js'
+	.otherwise({
+		redirectTo: '/'
 	})
 });

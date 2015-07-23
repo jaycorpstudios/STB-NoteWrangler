@@ -1,1 +1,24 @@
-<h1>New Note</h1>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h1>New Note</h1>
+	</div>
+	<div class="panel-body">
+		<form>
+			<div class="form-group">
+				<label for="title">Title</label>
+				<input type="text" class="form-control" name="title" ng-model="note.title"></input>
+			</div>
+			<div class="form-group">
+				<label for="description">Description</label>
+				<input type="text" class="form-control" name="description" ng-model="note.description"></input>
+			</div>
+			<div class="form-group">
+				<label for="content">Content</label>
+				<textarea class="form-control" name="content" ng-model="note.content"></textarea>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="{{isSubmitting ? 'Creating...' : 'Create note' }}" class="btn btn-block btn-success" ng-click="save(note)" ng-disabled="isSubmitting">
+			</div>
+		</form>	
+	</div>
+</div>

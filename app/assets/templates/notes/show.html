@@ -1,1 +1,8 @@
-<h1>Show Note</h1>
+<div class="col-md-12">
+	<h1>Show Note</h1>
+	<h2 class="panel-title">{{note.title}}</h2>
+	<p class="panel-body">{{note.description}}</p>
+	<p class="panel-body">{{note.content}}</p>
+	<a class="btn btn-default btn-block" ng-href="/#/notes/{{note.id}}/edit">Edit Note</a>
+	<a class="btn btn-danger btn-block" ng-href="" ng-click="deleteNote(note)">Delete Note</a>	
+</div>
