@@ -1,7 +1,7 @@
-<div class="panel panel-default" >
+<div class="panel panel-default" title="{{note.user.name}}" >
 	<div class="panel-heading">
 		<h2 class="panel-title">{{note.title}}</h2>
-		<p>By: {{note.user.name}}</p>
+		<a ng-href="#/users/{{note.user.id}}"><p ng-show="!isPreview">By: {{note.user.name}}</p></a>
 	</div>
 	<div class="panel-body">
 		<p ng-class="{'well well-sm' : !isPreview}">{{note.description}}</p>

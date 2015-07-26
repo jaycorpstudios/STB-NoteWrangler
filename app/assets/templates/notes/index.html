@@ -1,9 +1,31 @@
 <h1>Notes</h1>
 <div class="row">
 	<div class="col-md-12">
+		<div class="form-group">
+			<div class="input-group">
+				<span class="input-group-addon" id="basic-addon1">Search:</span>
+				<input class="form-control" type="text" name="search" ng-model="search.input.$">
+			</div>
+		</div>
+	</div>
+	<div class="col-md-12">
+		<div class="form-group">
+			<div class="input-group">
+				<span class="input-group-addon" id="basic-addon1">Filter by category:</span>
+				<nw-category-selector ng-model="search.category"></nw-category-selector>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
 		<a id="btnAddNote" class="btn btn-block btn-success" ng-href="#/notes/new">Add Note</a>
 	</div>
 	<div class="col-md-12">
-		<nw-note note="note" is-preview="true" class="col-md-4" ng-repeat="note in notes"></nw-note>
+		<nw-note
+		note="note"
+		is-preview="true"
+		class="col-md-4"
+		ng-repeat="note in notes | filterCategory: search.category | filter: search.input"></nw-note>
 	</div>
 </div>
