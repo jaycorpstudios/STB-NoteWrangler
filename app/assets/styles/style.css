@@ -5,3 +5,13 @@
 #btnAddNote{
 	margin: 40px 0;
 }
+.nw-user .panel-heading {
+	text-align: center;
+}
+.nw-user img{
+	width: 60px;
+	margin-bottom: 10px;
+	border-radius: 60px;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
+}

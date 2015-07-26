@@ -59,8 +59,7 @@ angular.module('NoteWrangler').directive('nwNote', function(){
 		$timeout(function(){
 			$(element).tooltip();
 		});
-
-		angular.$on('destroy', function(){
+		scope.$on('destroy', function(){
 			$(element).tooltip('destroy');
 		});
 	}
