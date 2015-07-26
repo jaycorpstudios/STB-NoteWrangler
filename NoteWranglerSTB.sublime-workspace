@@ -1,0 +1,757 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pat",
+				"pathToFile"
+			],
+			[
+				"co",
+				"col-75"
+			],
+			[
+				"col-",
+				"col-25"
+			],
+			[
+				"rg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"bar",
+				"bar"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"button",
+				"div.button"
+			],
+			[
+				"re",
+				"resource"
+			],
+			[
+				"up",
+				"updateMainCSS"
+			],
+			[
+				"v",
+				"vehicle"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"say",
+				"sayGoodBye"
+			],
+			[
+				"mongo",
+				"mongoose"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"par",
+				"partialPath"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"st",
+				"str"
+			],
+			[
+				"w",
+				"window"
+			],
+			[
+				"cu",
+				"currentWidth"
+			],
+			[
+				"scale",
+				"scale-up-and-down"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"Mov",
+				"MovilVertical"
+			],
+			[
+				"con",
+				"confirm"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"fire",
+				"fireBaseRef"
+			],
+			[
+				"form",
+				"formMdl"
+			],
+			[
+				"in",
+				"input-valid"
+			],
+			[
+				"inp",
+				"input-invalid"
+			],
+			[
+				"inpu",
+				"input-warning"
+			],
+			[
+				"va",
+				"validEmailRegEx"
+			],
+			[
+				"globa",
+				"globalScale"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"init",
+				"initParallax"
+			],
+			[
+				"list-t",
+				"list-style"
+			],
+			[
+				"rotate",
+				"rotate-hands"
+			],
+			[
+				"rotate-",
+				"rotate-20deg"
+			],
+			[
+				"ov",
+				"overflow-x"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"http",
+				"httpProvider"
+			],
+			[
+				"html",
+				"html5	Simple HTML5 Boilerplate"
+			],
+			[
+				"x",
+				"_x"
+			],
+			[
+				"barra",
+				"barra_superior"
+			],
+			[
+				"posi",
+				"posicionarObjetos"
+			],
+			[
+				"new",
+				"newDay"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"br",
+				"Bootstrap"
+			],
+			[
+				"syn",
+				"syncObject"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"wid",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssja",
+				"Set Syntax: Jade"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sss",
+				"Set Syntax: Stylus"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"vali",
+				"W3C Validators: Validate HTML5"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 188.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB"
+	],
+	"file_history":
+	[
+		"/Users/jaycorpstudios/Desktop/development/Node/workshop-CPMX6/ejercicio2.js",
+		"/Users/jaycorpstudios/Desktop/development/Node/workshop-CPMX6/ejercicio5.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/test/specs/todo-spec.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/test/conf.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/test/specs/notes-spec.js",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/styles/less/misa.less",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/index.html",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/js/main.js",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/styles/less/grid.less",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/styles/less/globals.less",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/styles/style.css",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/styles/less/inicio.less",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/styles/less/quote.less",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/styles/less/mixins.less",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/styles/less/style.less",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/styles/less/animations.less",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/Gruntfile.js",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres copia/Gruntfile.js",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/.gitignore",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/styles/style.less",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/css/secciones/inicio.less",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/bower.json",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/app/css/secciones/inicio.css",
+		"/Users/jaycorpstudios/Library/Application Support/Sublime Text 3/Packages/User/less2css.sublime-settings",
+		"/Users/jaycorpstudios/Library/Application Support/Sublime Text 3/Packages/Less2Css/less2css.sublime-settings",
+		"/Users/jaycorpstudios/Library/Application Support/Sublime Text 3/Packages/User/LESS.sublime-settings",
+		"/Users/jaycorpstudios/Desktop/development/marianaYandres/package.json",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/Mariana y Andres/development/maquetado/css/style.less",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/Mariana y Andres/development/maquetado/css/secciones/inicio.less",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/Mariana y Andres/development/maquetado/index.html",
+		"/Users/jaycorpstudios/Downloads/bootstrap-3.3.5/less/mixins/grid.less",
+		"/Users/jaycorpstudios/Downloads/bootstrap-3.3.5/less/grid.less",
+		"/Users/jaycorpstudios/Downloads/bootstrap-3.3.5/less/mixins/grid-framework.less",
+		"/Users/jaycorpstudios/Downloads/bootstrap-3.3.5/less/type.less",
+		"/Users/jaycorpstudios/Downloads/bootstrap-3.3.5/less/utilities.less",
+		"/Users/jaycorpstudios/Downloads/bootstrap-3.3.5/less/wells.less",
+		"/Users/jaycorpstudios/Downloads/bootstrap-3.3.5/less/variables.less",
+		"/Users/jaycorpstudios/Downloads/bootstrap-3.3.5/less/mixins/alerts.less",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/Mariana y Andres/development/maquetado/css/globals.less",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/templates/notes/new.html",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/javascript/controllers/notesNewController.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/javascript/controllers/notesShowController.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/templates/notes/index.html",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/templates/notes/edit.html",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/templates/notes/show.html",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/javascript/controllers/notesEditController.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/javascript/services/note.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/index.html",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/templates/imports/note.html",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/javascript/controllers/notesIndexController.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/javascript/directives/note-directive.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/javascript/routes.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/app/assets/javascript/app.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/StayingSharpWithAngularSTB/.gitignore",
+		"/Users/jaycorpstudios/Desktop/index.html",
+		"/Users/jaycorpstudios/.Trash/test.html",
+		"/Users/jaycorpstudios/Dropbox/Preparacion/test.html",
+		"/Users/jaycorpstudios/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jaycorpstudios/Desktop/development/Angular/jaycorp-cms/app/index.html",
+		"/Users/jaycorpstudios/Desktop/development/Angular/jaycorp-cms/app/scripts/config/httpInterceptor.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/jaycorp-cms/app/scripts/app.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/jaycorp-cms/app/scripts/controllers/ctrl-login.js",
+		"/Users/jaycorpstudios/Downloads/Ftp abarragan@auroraglobal.com.xml",
+		"/Users/jaycorpstudios/Downloads/adts_demo-master/assets/js/road.js",
+		"/Users/jaycorpstudios/Desktop/development/Angular/jaycorp-cms/app/views/login.html",
+		"/Users/jaycorpstudios/Desktop/development/Angular/jaycorp-cms/app/styles/style.less",
+		"/Users/jaycorpstudios/Desktop/development/Angular/jaycorp-cms/app/styles/less/login.less",
+		"/Users/jaycorpstudios/Desktop/development/Angular/jaycorp-cms/app/styles/less/login.css",
+		"/Users/jaycorpstudios/Desktop/development/Angular/jaycorp-cms/Gruntfile.js",
+		"/Users/jaycorpstudios/Desktop/js objects/index.html",
+		"/Users/jaycorpstudios/Desktop/js objects/js/application.js",
+		"/Users/jaycorpstudios/Desktop/tc-fitness/public/templates/index.html",
+		"/Users/jaycorpstudios/Desktop/tc-fitness/public/templates/page.html",
+		"/Users/jaycorpstudios/Desktop/js.html",
+		"/Users/jaycorpstudios/Desktop/Game of Thrones/Game of Thrones S05E01.srt",
+		"/Users/jaycorpstudios/Desktop/Game of Thrones/Game of Thrones S05E01.rar",
+		"/Users/jaycorpstudios/Desktop/Game of Thrones/Game of Thrones S05E00.rar",
+		"/Users/jaycorpstudios/Desktop/Multivision/app/includes/scripts.jade",
+		"/Users/jaycorpstudios/Desktop/Multivision/app/views/partials/main.jade",
+		"/Users/jaycorpstudios/Desktop/Multivision/public/app/app.js",
+		"/Users/jaycorpstudios/Desktop/Multivision/app/includes/layout.jade",
+		"/Users/jaycorpstudios/Desktop/Multivision/app/views/index.jade",
+		"/Users/jaycorpstudios/Desktop/Multivision/package.json",
+		"/Users/jaycorpstudios/Desktop/Multivision/server.js",
+		"/Users/jaycorpstudios/Desktop/Multivision/public/css/site.styl",
+		"/Users/jaycorpstudios/Desktop/Multivision/.bowerrc",
+		"/Users/jaycorpstudios/Desktop/Multivision/.gitignore",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/app/scripts/main.js",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/app/styles/main.less",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/app/index.html",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/app/styles/mixins.less",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/bower_components/PxLoader/bower.json",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/bower.json",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/app/scripts/inputify.js",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/Gruntfile.js",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/bower_components/parallax/bower.json",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/bower_components/parallax/jquery.parallax.js",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/app/styles/main.css",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/JJ Benitez/Website Preview/develop/package.json",
+		"/Users/jaycorpstudios/Dropbox/Prreparacion/AngularJs Proyectos/instagram/index.html",
+		"/Users/jaycorpstudios/Dropbox/Prreparacion/AngularJs Proyectos/instagram/js/app.js",
+		"/Users/jaycorpstudios/Dropbox/Prreparacion/AngularJs Proyectos/NoteWrangler/index.html",
+		"/Users/jaycorpstudios/Dropbox/Prreparacion/AngularJs Proyectos/instagram/index.htnl",
+		"/Users/jaycorpstudios/Dropbox/Prreparacion/AngularJs Proyectos/NoteWrangler/templates/notes/index.html",
+		"/Users/jaycorpstudios/Dropbox/Prreparacion/AngularJs Proyectos/NoteWrangler/js/app.js",
+		"/Users/jaycorpstudios/Dropbox/Proyectos/Mexicano Exitoso/Presentacion/develop/com/jaycorpstudios/functions.as",
+		"/Users/jaycorpstudios/Dropbox/Prreparacion/AngularJs Proyectos/schedule-real-time/css/style.css",
+		"/Users/jaycorpstudios/Desktop/Ruby/TwitterForZombies/config/database.yml",
+		"/Users/jaycorpstudios/Desktop/Ruby/TwitterForZombies/db/migrate/20150301210227_remove_age_from_zombies.rb",
+		"/Users/jaycorpstudios/Desktop/Ruby/TwitterForZombies/db/migrate/20150301210139_remove_age_from_zobmies.rb",
+		"/Users/jaycorpstudios/Desktop/Ruby/TwitterForZombies/db/migrate/20150301205703_add_email_routting_to_zombies.rb",
+		"/Users/jaycorpstudios/Desktop/Ruby/TwitterForZombies/app/views/zombies/index.json.jbuilder",
+		"/Users/jaycorpstudios/Desktop/Ruby/TwitterForZombies/app/views/layouts/application.html.erb",
+		"/Users/jaycorpstudios/Desktop/Ruby/TwitterForZombies/app/models/zombie.rb",
+		"/Users/jaycorpstudios/Desktop/Ruby/TwitterForZombies/app/controllers/application_controller.rb",
+		"/Users/jaycorpstudios/Desktop/Ruby/TwitterForZombies/app/controllers/zombies_controller.rb",
+		"/Users/jaycorpstudios/Desktop/Ruby/TwitterForZombies/config/routes.rb",
+		"/Applications/XAMPP/xamppfiles/htdocs/solo-ofertas/.gitignore",
+		"/Applications/XAMPP/xamppfiles/htdocs/solo-ofertas/.git/info/exclude",
+		"/Applications/XAMPP/xamppfiles/htdocs/solo-ofertas/vistas/bloques/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/solo-ofertas/vistas/digital.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/solo-ofertas/css/paginacioniPad.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/solo-ofertas/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/solo-ofertas/vistas/bloques/head-general.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/solo-ofertas/configuracion.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/solo-ofertas/librerias/functions-digital.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/solo-ofertas/configuracion-digital-mty.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/solo-ofertas/css/paginacion.css"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"grid",
+			"rotate",
+			".scale(1);",
+			".scale(0)",
+			".translate(0);",
+			".translate(-100%);",
+			"nav_li_in",
+			"nav-li-in",
+			"@iterationCount @fill",
+			"animation-direction",
+			"-direction",
+			"navIn",
+			"['.btn-menu','nav']",
+			"nav-in",
+			"nav_li_in",
+			"nav_in",
+			";\n",
+			"rotate",
+			"'.btn-menu'",
+			"this",
+			".active",
+			"@transition",
+			"-transition",
+			"<span>",
+			"58",
+			"59",
+			"less/",
+			"main",
+			"css",
+			"styles",
+			"watch",
+			"styles",
+			"watch",
+			"wiredep",
+			"watch",
+			"\"",
+			"La Misa",
+			"Misa",
+			"h1",
+			"h3",
+			"\",",
+			"button",
+			"}}",
+			"{{",
+			"title",
+			"ng",
+			"div",
+			"notes",
+			"index",
+			"notes",
+			"app/",
+			"Notes",
+			"h1",
+			"'",
+			"npm",
+			"less:",
+			"autopre",
+			"updateMain",
+			"updateCSS",
+			"registerTas",
+			"test:",
+			"watch",
+			"h2",
+			"array",
+			"User",
+			"'",
+			"serve",
+			"this",
+			"angular",
+			"console.log",
+			"offset",
+			"event",
+			"slug",
+			"maxSlug",
+			"Slug",
+			"altoActual",
+			"anchoActual",
+			"\"",
+			"24",
+			"/*",
+			".animation (rotate-hands, 10s, .5s, ease, infinite, both, alternate);",
+			";}",
+			".scale-up-and-down;",
+			"eyes",
+			"ojo",
+			"eyes",
+			"scale",
+			"@factor",
+			".rotate-20deg",
+			"rotate-hands",
+			"scale",
+			"clip-path",
+			"clip-path:",
+			"logo",
+			"@break-2",
+			"type",
+			"background: none;",
+			"background: #ffb7b7;",
+			"complete",
+			"alue",
+			"this",
+			"val",
+			"logo",
+			"0 -53px",
+			"0 0",
+			"%",
+			"ico-social",
+			"social",
+			"form",
+			".transition",
+			"scale(.6)",
+			"scale(",
+			"\">",
+			">",
+			"<li ",
+			"ul",
+			"</li>",
+			"0px",
+			".absoluteImg",
+			".absoluteImg(0px, 0px, 2000 );",
+			"0px, );",
+			"p-",
+			"class=",
+			"class=\"p-head\"",
+			"parallax-layer ",
+			"<li>",
+			"MacBook Pro",
+			"laptop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "NoteWranglerSTB.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"grid",
+				"app/styles/less/grid.less"
+			],
+			[
+				"quo",
+				"app/styles/less/quote.less"
+			],
+			[
+				"styl",
+				"app/styles/less/style.less"
+			],
+			[
+				"sty",
+				"app/styles/style.css"
+			],
+			[
+				"main",
+				"app/js/main.js"
+			],
+			[
+				"inic",
+				"app/styles/less/inicio.less"
+			],
+			[
+				"",
+				"app/styles/less/inicio.less"
+			],
+			[
+				"mix",
+				"app/styles/less/mixins.less"
+			],
+			[
+				"glob",
+				"app/styles/less/globals.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 327.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

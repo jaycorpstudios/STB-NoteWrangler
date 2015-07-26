@@ -1,10 +1,14 @@
 <div class="panel panel-default" >
 	<div class="panel-heading">
 		<h2 class="panel-title">{{note.title}}</h2>
+		<p>By: {{note.user.name}}</p>
 	</div>
-	<div class="panel-header">
-		<p class="panel-body">{{note.description}}</p>
-		<a class="btn btn-default" ng-href="/#/notes/{{note.id}}">View More</a>
+	<div class="panel-body">
+		<p ng-class="{'well well-sm' : !isPreview}">{{note.description}}</p>
+		<p ng-show="!isPreview">{{note.content}}</p>
+		<a ng-show="isPreview" class="btn btn-default" ng-href="/#/notes/{{note.id}}">View More</a>
 	</div>
-	<span class="label label-info">{{note.category.name}}</span>
-</div>
+	<div class="panel-footer">
+		<span class="label label-info">{{note.category.name}}</span>
+	</div>
+</div

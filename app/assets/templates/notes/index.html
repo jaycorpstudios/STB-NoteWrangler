@@ -1,5 +1,9 @@
 <h1>Notes</h1>
-<div class="col-md-12">
-	<a class="btn btn-block btn-default" ng-href="#/notes/new">Add Note</a>
+<div class="row">
+	<div class="col-md-12">
+		<a id="btnAddNote" class="btn btn-block btn-success" ng-href="#/notes/new">Add Note</a>
+	</div>
+	<div class="col-md-12">
+		<nw-note note="note" is-preview="true" class="col-md-4" ng-repeat="note in notes"></nw-note>
+	</div>
 </div>
-<nw-note class="col-md-4" ng-repeat='note in notes'></nw-note>
