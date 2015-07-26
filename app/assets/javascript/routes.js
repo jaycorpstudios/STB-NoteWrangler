@@ -11,13 +11,21 @@ angular.module('NoteWrangler').config(function($routeProvider){
 		templateUrl: 'assets/templates/notes/new.html',
 		controller: 'NotesNewCtrl'
 	})
-		.when('/notes/:id', {
+	.when('/notes/:id', {
 		templateUrl: 'assets/templates/notes/show.html',
 		controller: 'NotesShowCtrl'
 	})
-			.when('/notes/:id/edit', {
+	.when('/notes/:id/edit', {
 		templateUrl: 'assets/templates/notes/edit.html',
 		controller: 'NotesEditCtrl'
+	})
+	.when('/users', {
+		templateUrl: 'assets/templates/users/index.html',
+		controller: 'UsersIndexCtrl'
+	})
+	.when('/users/:id', {
+		templateUrl: 'assets/templates/users/show.html',
+		controller: 'UsersShowCtrl'
 	})
 	.otherwise({
 		redirectTo: '/'

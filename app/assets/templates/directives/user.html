@@ -1,0 +1,14 @@
+<div class="panel panel-default" >
+	<div class="panel-heading">
+		<h2 class="panel-title">{{user.name}}</h2>
+		<p>@{{user.username}}</p>
+	</div>
+	<div ng-show="!isPreview" class="panel-body">
+		<p>email: {{user.email}}</p>
+		<a ng-href="http://www.{{user.site}}"><p>{{user.site}}</p></a>
+		<p>{{user.bio}}</p>
+	</div>
+	<div ng-show="isPreview" class="panel-body">
+		<a ng-show="isPreview" class="btn btn-default" ng-href="/#/users/{{user.id}}">View More</a>
+	</div>
+</div
